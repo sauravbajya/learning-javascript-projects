@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  line-height: 1.3;
+  font-weight: 400;
+  background-color: #19a2ae;
+  overflow: hidden;
+  color: #2d3248;
+  background-image: url('./images/bg-pattern-top.svg'),
+    url('./images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat;
+  background-position: top -40rem left -49rem, bottom -70rem right -48rem;
+}
+@media (min-width: 425px) {
+  body {
+    background-position: top -39rem left -42rem, bottom -70rem right -46rem;
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    background-position: top -30rem left -35rem, bottom -75rem right -25em;
+    font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    background-position: top -30rem left -35rem, bottom -75rem right -20em;
+    font-size: 22px;
+  }
+}
+@media (min-width: 1440px) {
+  body {
+    background-position: top -30rem left -15rem, bottom -75rem right -10em;
+    font-size: 24px;
+  }
+}
+body .card {
+  background-color: white;
+  border-radius: 0.9375em;
+  position: absolute;
+  width: 16em;
+  height: 18em;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+body .card__top {
+  background-image: url(./images/bg-pattern-card.svg);
+  height: 6em;
+  border-top-left-radius: 0.9375rem;
+  border-top-right-radius: 0.9375rem;
+}
+body .card__middle {
+  position: relative;
+  height: 7em;
+  text-align: center;
+  line-height: 0.5;
+}
+body .card__middle__img {
+  max-width: 100vmax;
+  height: auto;
+  border-radius: 50%;
+  border: 0.375rem solid white;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: -4em;
+}
+@media (min-width: 425px) {
+  body .card__middle__img {
+    top: -4.5em;
+  }
+}
+@media (min-width: 768px) {
+  body .card__middle__img {
+    top: -4.1em;
+  }
+}
+@media (min-width: 1024px) {
+  body .card__middle__img {
+    top: -3.75em;
+  }
+}
+@media (min-width: 1440px) {
+  body .card__middle__img {
+    top: -3.5em;
+  }
+}
+body .card__middle__name {
+  font-weight: 700;
+  padding-top: 4rem;
+  font-size: 1.25em;
+}
+body .card__middle__name__age {
+  font-weight: 400;
+  color: #969696;
+  padding-left: 0.2rem;
+}
+body .card__middle__place {
+  font-weight: 400;
+  color: #969696;
+  font-size: 1em;
+}
+body .card__bottom {
+  border-top: 0.5px solid #969696;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+body .card__bottom__number {
+  font-size: 1.25em;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
+body .card__bottom__number__placeholder {
+  font-weight: 400;
+  color: #969696;
+  font-size: 0.5em;
+}
+body .attribution {
+  position: absolute;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

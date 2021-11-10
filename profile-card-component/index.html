@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <!-- card top starts -->
+      <div class="card__top"></div>
+      <!-- card top ends -->
+
+      <!-- card middle starts -->
+      <div class="card__middle">
+        <img
+          src="./images/image-victor.jpg"
+          alt="user Images"
+          class="card__middle__img"
+        />
+        <h2 class="card__middle__name">
+          Victor Crest <span class="card__middle__name__age">26</span>
+        </h2>
+        <h3 class="card__middle__place">London</h3>
+      </div>
+      <!-- card middle ends -->
+
+      <!-- card bottom starts -->
+      <div class="card__bottom">
+        <h1 class="card__bottom__number">
+          80K
+          <div class="card__bottom__number__placeholder">Followers</div>
+        </h1>
+        <h1 class="card__bottom__number">
+          803K
+          <div class="card__bottom__number__placeholder">Likes</div>
+        </h1>
+        <h1 class="card__bottom__number">
+          1.4K
+          <div class="card__bottom__number__placeholder">Photos</div>
+        </h1>
+      </div>
+      <!-- card bottom ends -->
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Saurav Bajracharya</a>.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Truculenta:wght@600;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Color Flipper</title>
+  </head>
+  <body id="body">
+    <nav class="navbar container">
+      <h3 class="navbar__name">Color Flipper</h3>
+      <ul class="navbar__list">
+        <li class="navbar__list__item">
+          <a href="index.html" class="navbar__list__item__link">Simple</a>
+        </li>
+        <li class="navbar__list__item">
+          <a href="hex.html" class="navbar__list__item__link">Hex</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="main">
+      <div class="main__container">
+        <h1 class="main__container__head">
+          Background Color :<span
+            class="main__container__head__color"
+            id="color"
+          >
+            &nbsp;#ffff</span
+          >
+        </h1>
+        <button class="main__container__btn btn" id="btn">CLICK ME</button>
+      </div>
+    </main>
+    <script src="simple.js"></script>
+  </body>
+</html>
